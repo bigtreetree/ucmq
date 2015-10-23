@@ -1,0 +1,811 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARR_SIZE	internal.h	32;"	d
+ATOMIC_ADD	atomic.h	104;"	d
+ATOMIC_ADD	atomic.h	33;"	d
+ATOMIC_AND	atomic.h	134;"	d
+ATOMIC_AND	atomic.h	36;"	d
+ATOMIC_BIT_OFF	atomic.h	161;"	d
+ATOMIC_BIT_ON	atomic.h	158;"	d
+ATOMIC_BIT_XCHG	atomic.h	164;"	d
+ATOMIC_CAS	atomic.h	27;"	d
+ATOMIC_CAS	atomic.h	81;"	d
+ATOMIC_CLEAR	atomic.h	30;"	d
+ATOMIC_CLEAR	atomic.h	95;"	d
+ATOMIC_GET	atomic.h	17;"	d
+ATOMIC_GET	atomic.h	50;"	d
+ATOMIC_OR	atomic.h	124;"	d
+ATOMIC_OR	atomic.h	35;"	d
+ATOMIC_SET	atomic.h	20;"	d
+ATOMIC_SET	atomic.h	60;"	d
+ATOMIC_SUB	atomic.h	114;"	d
+ATOMIC_SUB	atomic.h	34;"	d
+ATOMIC_SWAP	atomic.h	23;"	d
+ATOMIC_SWAP	atomic.h	69;"	d
+ATOMIC_USE_LOCK	atomic.h	47;"	d
+ATOMIC_XOR	atomic.h	144;"	d
+ATOMIC_XOR	atomic.h	37;"	d
+DB_FILE_HEAD_LEN	mq_util.h	51;"	d
+DB_FILE_HEAD_OF_COUNT_LEN	mq_util.h	52;"	d
+DB_FILE_HEAD_OF_VERSION_LEN	mq_util.h	53;"	d
+DB_FILE_VERSION	mq_util.h	54;"	d
+DECLTYPE	uthash.h	37;"	d
+DECLTYPE	uthash.h	40;"	d
+DECLTYPE	uthash.h	43;"	d
+DECLTYPE_ASSIGN	uthash.h	47;"	d
+DECLTYPE_ASSIGN	uthash.h	53;"	d
+DEF_DATA_FILE_PATH	mq_config.h	32;"	d
+DEF_DB_FILE_MAX_SIZE	mq_config.h	33;"	d
+DEF_MAX_QLIST_ITEMS	mq_config.h	27;"	d
+DEF_MAX_QUEUE	mq_config.h	35;"	d
+DEF_OUTPUT_LOG_LEVEL	mq_config.h	25;"	d
+DEF_OUTPUT_LOG_PATH	mq_config.h	24;"	d
+DEF_RES_STORE_SPACE	mq_config.h	26;"	d
+DEF_SYNC_INTERVAL	mq_config.h	29;"	d
+DEF_SYNC_TIME_INTERVAL	mq_config.h	30;"	d
+ELMT_FROM_HH	uthash.h	82;"	d
+FD_BLOCK	file.h	/^    FD_BLOCK    = 1,   \/* fd is block *\/$/;"	e	enum:fd_block
+FD_INVALID	file.h	/^    FD_INVALID  = -1,  \/* use for avoid\/detect some errors *\/$/;"	e	enum:fd_block
+FD_NONBLOCK	file.h	/^    FD_NONBLOCK = 2,   \/* fd is non-block *\/$/;"	e	enum:fd_block
+FD_UNKNOWN	file.h	/^    FD_UNKNOWN  = 0,   \/* unknown block or not *\/$/;"	e	enum:fd_block
+FOPEN_FLAG_CREATE	mq_store_file.h	/^    FOPEN_FLAG_CREATE =  0,  $/;"	e	enum:file_open_flag
+FOPEN_FLAG_OPEN	mq_store_file.h	/^    FOPEN_FLAG_OPEN   =  1,$/;"	e	enum:file_open_flag
+GCC_VERSION	common.h	36;"	d
+GEN_DATA_FULL_PATH_BY_FNAME	mq_store_file.h	62;"	d
+GEN_DATA_FULL_PATH_BY_QNAME_INDEX	mq_store_file.h	56;"	d
+GEN_QUEUE_PATH_BY_QNAME	mq_store_file.h	38;"	d
+GEN_RTAG_FULL_PATH_BY_QNAME_INDEX	mq_store_file.h	44;"	d
+GEN_WTAG_FULL_PATH_BY_QNAME_INDEX	mq_store_file.h	50;"	d
+HASH_ADD	uthash.h	149;"	d
+HASH_ADD_INT	uthash.h	237;"	d
+HASH_ADD_KEYPTR	uthash.h	152;"	d
+HASH_ADD_PTR	uthash.h	241;"	d
+HASH_ADD_STR	uthash.h	233;"	d
+HASH_ADD_TO_BKT	uthash.h	582;"	d
+HASH_BER	uthash.h	328;"	d
+HASH_BKT_CAPACITY_THRESH	uthash.h	79;"	d
+HASH_BLOOM_ADD	uthash.h	117;"	d
+HASH_BLOOM_ADD	uthash.h	126;"	d
+HASH_BLOOM_BITLEN	uthash.h	98;"	d
+HASH_BLOOM_BITSET	uthash.h	114;"	d
+HASH_BLOOM_BITTEST	uthash.h	115;"	d
+HASH_BLOOM_BYTELEN	uthash.h	99;"	d
+HASH_BLOOM_FREE	uthash.h	109;"	d
+HASH_BLOOM_FREE	uthash.h	125;"	d
+HASH_BLOOM_MAKE	uthash.h	100;"	d
+HASH_BLOOM_MAKE	uthash.h	124;"	d
+HASH_BLOOM_SIGNATURE	uthash.h	858;"	d
+HASH_BLOOM_TEST	uthash.h	120;"	d
+HASH_BLOOM_TEST	uthash.h	127;"	d
+HASH_CLEAR	uthash.h	812;"	d
+HASH_CNT	uthash.h	834;"	d
+HASH_COUNT	uthash.h	833;"	d
+HASH_DEL	uthash.h	243;"	d
+HASH_DELETE	uthash.h	194;"	d
+HASH_DEL_IN_BKT	uthash.h	596;"	d
+HASH_EMIT_KEY	uthash.h	310;"	d
+HASH_EMIT_KEY	uthash.h	317;"	d
+HASH_EXPAND_BUCKETS	uthash.h	637;"	d
+HASH_FCN	uthash.h	322;"	d
+HASH_FCN	uthash.h	324;"	d
+HASH_FIND	uthash.h	84;"	d
+HASH_FIND_INT	uthash.h	235;"	d
+HASH_FIND_IN_BKT	uthash.h	568;"	d
+HASH_FIND_PTR	uthash.h	239;"	d
+HASH_FIND_STR	uthash.h	231;"	d
+HASH_FNV	uthash.h	350;"	d
+HASH_FSCK	uthash.h	251;"	d
+HASH_FSCK	uthash.h	303;"	d
+HASH_INITIAL_NUM_BUCKETS	uthash.h	77;"	d
+HASH_INITIAL_NUM_BUCKETS_LOG2	uthash.h	78;"	d
+HASH_ITER	uthash.h	823;"	d
+HASH_ITER	uthash.h	827;"	d
+HASH_JEN	uthash.h	389;"	d
+HASH_JEN_MIX	uthash.h	376;"	d
+HASH_KEYCMP	uthash.h	565;"	d
+HASH_MAKE_TABLE	uthash.h	130;"	d
+HASH_MUR	uthash.h	527;"	d
+HASH_OAT	uthash.h	360;"	d
+HASH_OOPS	uthash.h	250;"	d
+HASH_SAX	uthash.h	340;"	d
+HASH_SELECT	uthash.h	774;"	d
+HASH_SFH	uthash.h	441;"	d
+HASH_SIGNATURE	uthash.h	857;"	d
+HASH_SORT	uthash.h	689;"	d
+HASH_SRT	uthash.h	690;"	d
+HASH_TO_BKT	uthash.h	177;"	d
+INVALID	common.h	/^    INVALID = 0,         \/* use for avoid\/detect some errors *\/$/;"	e	enum:OPT
+IOV_MAX	file.c	18;"	d	file:
+LOG_DEBUG	log.h	/^    LOG_DEBUG = 10,              \/* debug *\/$/;"	e	enum:LOG_LEVEL_VALUE
+LOG_ERROR	log.h	/^    LOG_ERROR = 10000,           \/* error *\/$/;"	e	enum:LOG_LEVEL_VALUE
+LOG_FATAL	log.h	/^    LOG_FATAL = 65535,           \/* fatal, maybe need to reboot *\/$/;"	e	enum:LOG_LEVEL_VALUE
+LOG_HAS_INIT	log.c	22;"	d	file:
+LOG_INFO	log.h	/^    LOG_INFO  = 100,             \/* runtime infomation *\/$/;"	e	enum:LOG_LEVEL_VALUE
+LOG_INIT_ING	log.c	21;"	d	file:
+LOG_LEVEL_VALUE	log.h	/^enum LOG_LEVEL_VALUE$/;"	g
+LOG_NEED_INIT	log.c	20;"	d	file:
+LOG_TRACE	log.h	/^    LOG_TRACE = 0,               \/* trace run path *\/$/;"	e	enum:LOG_LEVEL_VALUE
+LOG_WARN	log.h	/^    LOG_WARN  = 1000,            \/* some error but can fix or ignore it *\/$/;"	e	enum:LOG_LEVEL_VALUE
+MAX_DATA_FILE_NAME_LEN	mq_util.h	58;"	d
+MAX_DATA_PATH_NAME_LEN	mq_util.h	57;"	d
+MAX_DB_FILE_SIZE	mq_util.h	49;"	d
+MAX_DB_FILE_SIZE_LIMIT	mq_util.h	50;"	d
+MAX_FULL_FILE_NAME_LEN	mq_util.h	56;"	d
+MAX_QUEUE_NAME_LEN	mq_queue_manage.h	33;"	d
+MQ_E2BIG	mq_errno.h	77;"	d
+MQ_EACCES	mq_errno.h	83;"	d
+MQ_EADDRINUSE	mq_errno.h	168;"	d
+MQ_EADDRNOTAVAIL	mq_errno.h	169;"	d
+MQ_EADV	mq_errno.h	138;"	d
+MQ_EAFNOSUPPORT	mq_errno.h	167;"	d
+MQ_EAGAIN	mq_errno.h	81;"	d
+MQ_EALREADY	mq_errno.h	184;"	d
+MQ_EBADE	mq_errno.h	122;"	d
+MQ_EBADF	mq_errno.h	79;"	d
+MQ_EBADFD	mq_errno.h	147;"	d
+MQ_EBADMSG	mq_errno.h	144;"	d
+MQ_EBADR	mq_errno.h	123;"	d
+MQ_EBADRQC	mq_errno.h	126;"	d
+MQ_EBADSLT	mq_errno.h	127;"	d
+MQ_EBFONT	mq_errno.h	129;"	d
+MQ_EBUSY	mq_errno.h	86;"	d
+MQ_ECANCELED	mq_errno.h	195;"	d
+MQ_ECHILD	mq_errno.h	80;"	d
+MQ_ECHRNG	mq_errno.h	114;"	d
+MQ_ECOMM	mq_errno.h	140;"	d
+MQ_ECONNABORTED	mq_errno.h	173;"	d
+MQ_ECONNREFUSED	mq_errno.h	181;"	d
+MQ_ECONNRESET	mq_errno.h	174;"	d
+MQ_EDEADLK	mq_errno.h	105;"	d
+MQ_EDEADLOCK	mq_errno.h	128;"	d
+MQ_EDESTADDRREQ	mq_errno.h	159;"	d
+MQ_EDOM	mq_errno.h	103;"	d
+MQ_EDOTDOT	mq_errno.h	143;"	d
+MQ_EDQUOT	mq_errno.h	192;"	d
+MQ_EEXIST	mq_errno.h	87;"	d
+MQ_EFAULT	mq_errno.h	84;"	d
+MQ_EFBIG	mq_errno.h	97;"	d
+MQ_EHOSTDOWN	mq_errno.h	182;"	d
+MQ_EHOSTUNREACH	mq_errno.h	183;"	d
+MQ_EIDRM	mq_errno.h	113;"	d
+MQ_EILSEQ	mq_errno.h	154;"	d
+MQ_EINPROGRESS	mq_errno.h	185;"	d
+MQ_EINTR	mq_errno.h	74;"	d
+MQ_EINVAL	mq_errno.h	92;"	d
+MQ_EIO	mq_errno.h	75;"	d
+MQ_EISCONN	mq_errno.h	176;"	d
+MQ_EISDIR	mq_errno.h	91;"	d
+MQ_EISNAM	mq_errno.h	190;"	d
+MQ_EKEYEXPIRED	mq_errno.h	197;"	d
+MQ_EKEYREJECTED	mq_errno.h	199;"	d
+MQ_EKEYREVOKED	mq_errno.h	198;"	d
+MQ_EL2HLT	mq_errno.h	121;"	d
+MQ_EL2NSYNC	mq_errno.h	115;"	d
+MQ_EL3HLT	mq_errno.h	116;"	d
+MQ_EL3RST	mq_errno.h	117;"	d
+MQ_ELIBACC	mq_errno.h	149;"	d
+MQ_ELIBBAD	mq_errno.h	150;"	d
+MQ_ELIBEXEC	mq_errno.h	153;"	d
+MQ_ELIBMAX	mq_errno.h	152;"	d
+MQ_ELIBSCN	mq_errno.h	151;"	d
+MQ_ELNRNG	mq_errno.h	118;"	d
+MQ_ELOOP	mq_errno.h	110;"	d
+MQ_EMEDIUMTYPE	mq_errno.h	194;"	d
+MQ_EMFILE	mq_errno.h	94;"	d
+MQ_EMLINK	mq_errno.h	101;"	d
+MQ_EMSGSIZE	mq_errno.h	160;"	d
+MQ_EMULTIHOP	mq_errno.h	142;"	d
+MQ_ENAMETOOLONG	mq_errno.h	106;"	d
+MQ_ENAVAIL	mq_errno.h	189;"	d
+MQ_ENETDOWN	mq_errno.h	170;"	d
+MQ_ENETRESET	mq_errno.h	172;"	d
+MQ_ENETUNREACH	mq_errno.h	171;"	d
+MQ_ENFILE	mq_errno.h	93;"	d
+MQ_ENOANO	mq_errno.h	125;"	d
+MQ_ENOBUFS	mq_errno.h	175;"	d
+MQ_ENOCSI	mq_errno.h	120;"	d
+MQ_ENODATA	mq_errno.h	131;"	d
+MQ_ENODEV	mq_errno.h	89;"	d
+MQ_ENOENT	mq_errno.h	72;"	d
+MQ_ENOEXEC	mq_errno.h	78;"	d
+MQ_ENOKEY	mq_errno.h	196;"	d
+MQ_ENOLCK	mq_errno.h	107;"	d
+MQ_ENOLINK	mq_errno.h	137;"	d
+MQ_ENOMEDIUM	mq_errno.h	193;"	d
+MQ_ENOMEM	mq_errno.h	82;"	d
+MQ_ENOMSG	mq_errno.h	112;"	d
+MQ_ENONET	mq_errno.h	134;"	d
+MQ_ENOPKG	mq_errno.h	135;"	d
+MQ_ENOPROTOOPT	mq_errno.h	162;"	d
+MQ_ENOSPC	mq_errno.h	98;"	d
+MQ_ENOSR	mq_errno.h	133;"	d
+MQ_ENOSTR	mq_errno.h	130;"	d
+MQ_ENOSYS	mq_errno.h	108;"	d
+MQ_ENOTBLK	mq_errno.h	85;"	d
+MQ_ENOTCONN	mq_errno.h	177;"	d
+MQ_ENOTDIR	mq_errno.h	90;"	d
+MQ_ENOTEMPTY	mq_errno.h	109;"	d
+MQ_ENOTNAM	mq_errno.h	188;"	d
+MQ_ENOTRECOVERABLE	mq_errno.h	202;"	d
+MQ_ENOTSOCK	mq_errno.h	158;"	d
+MQ_ENOTTY	mq_errno.h	95;"	d
+MQ_ENOTUNIQ	mq_errno.h	146;"	d
+MQ_ENXIO	mq_errno.h	76;"	d
+MQ_EOK	mq_errno.h	69;"	d
+MQ_EOPNOTSUPP	mq_errno.h	165;"	d
+MQ_EOVERFLOW	mq_errno.h	145;"	d
+MQ_EOWNERDEAD	mq_errno.h	201;"	d
+MQ_EPERM	mq_errno.h	71;"	d
+MQ_EPFNOSUPPORT	mq_errno.h	166;"	d
+MQ_EPIPE	mq_errno.h	102;"	d
+MQ_EPROTO	mq_errno.h	141;"	d
+MQ_EPROTONOSUPPORT	mq_errno.h	163;"	d
+MQ_EPROTOTYPE	mq_errno.h	161;"	d
+MQ_ERANGE	mq_errno.h	104;"	d
+MQ_EREMCHG	mq_errno.h	148;"	d
+MQ_EREMOTE	mq_errno.h	136;"	d
+MQ_EREMOTEIO	mq_errno.h	191;"	d
+MQ_ERESTART	mq_errno.h	155;"	d
+MQ_EROFS	mq_errno.h	100;"	d
+MQ_ESHUTDOWN	mq_errno.h	178;"	d
+MQ_ESOCKTNOSUPPORT	mq_errno.h	164;"	d
+MQ_ESPIPE	mq_errno.h	99;"	d
+MQ_ESRCH	mq_errno.h	73;"	d
+MQ_ESRMNT	mq_errno.h	139;"	d
+MQ_ESTALE	mq_errno.h	186;"	d
+MQ_ESTRPIPE	mq_errno.h	156;"	d
+MQ_ETIME	mq_errno.h	132;"	d
+MQ_ETIMEDOUT	mq_errno.h	180;"	d
+MQ_ETOOMANYREFS	mq_errno.h	179;"	d
+MQ_ETXTBSY	mq_errno.h	96;"	d
+MQ_EUCLEAN	mq_errno.h	187;"	d
+MQ_EUNATCH	mq_errno.h	119;"	d
+MQ_EUSERS	mq_errno.h	157;"	d
+MQ_EWOULDBLOCK	mq_errno.h	111;"	d
+MQ_EXDEV	mq_errno.h	88;"	d
+MQ_EXFULL	mq_errno.h	124;"	d
+MSG_CHECK_RET_CRC_ERR	mq_store_msg.h	/^    MSG_CHECK_RET_CRC_ERR     =  4,  $/;"	e	enum:msg_check_ret
+MSG_CHECK_RET_LEN_BEY	mq_store_msg.h	/^    MSG_CHECK_RET_LEN_BEY     =  5,  $/;"	e	enum:msg_check_ret
+MSG_CHECK_RET_MAG_NUM_ERR	mq_store_msg.h	/^    MSG_CHECK_RET_MAG_NUM_ERR =  2,  $/;"	e	enum:msg_check_ret
+MSG_CHECK_RET_MSG_ERR	mq_store_msg.h	/^    MSG_CHECK_RET_MSG_ERR     =  1,  $/;"	e	enum:msg_check_ret
+MSG_CHECK_RET_OK	mq_store_msg.h	/^    MSG_CHECK_RET_OK          =  0,  $/;"	e	enum:msg_check_ret
+MSG_CHECK_RET_PARSE_ERR	mq_store_msg.h	/^    MSG_CHECK_RET_PARSE_ERR   =  3,  $/;"	e	enum:msg_check_ret
+MSG_HEAD_LEN	mq_util.h	65;"	d
+MSG_HEAD_OF_CRC16_LEN	mq_util.h	62;"	d
+MSG_HEAD_OF_DELAY_LEN	mq_util.h	63;"	d
+MSG_HEAD_OF_FIRST_MAGIC_NUM	mq_util.h	67;"	d
+MSG_HEAD_OF_MSGLEN_LEN	mq_util.h	64;"	d
+MSG_HEAD_OF_ONE_MAGIC_NUM_LEN	mq_util.h	61;"	d
+MSG_HEAD_OF_SECOND_MAGIC_NUM	mq_util.h	68;"	d
+MS_2_NS	util.c	24;"	d	file:
+MS_2_S	util.c	26;"	d	file:
+MUR_FMIX	uthash.h	518;"	d
+MUR_GETBLOCK	uthash.h	496;"	d
+MUR_GETBLOCK	uthash.h	512;"	d
+MUR_ONE_THREE	uthash.h	506;"	d
+MUR_ONE_THREE	uthash.h	510;"	d
+MUR_PLUS0_ALIGNED	uthash.h	498;"	d
+MUR_PLUS1_ALIGNED	uthash.h	499;"	d
+MUR_PLUS2_ALIGNED	uthash.h	500;"	d
+MUR_PLUS3_ALIGNED	uthash.h	501;"	d
+MUR_ROTL32	uthash.h	517;"	d
+MUR_THREE_ONE	uthash.h	504;"	d
+MUR_THREE_ONE	uthash.h	508;"	d
+MUR_TWO_TWO	uthash.h	505;"	d
+MUR_TWO_TWO	uthash.h	509;"	d
+NO_DECLTYPE	uthash.h	39;"	d
+NS_2_MS	util.c	23;"	d	file:
+NS_2_S	util.c	21;"	d	file:
+OFF	common.h	/^    OFF     = 2,         \/* turn off some options *\/$/;"	e	enum:OPT
+ON	common.h	/^    ON      = 1,         \/* turn on some options *\/$/;"	e	enum:OPT
+OPT	common.h	/^enum OPT$/;"	g
+PRINT_FUNC	internal.h	27;"	d
+PRINT_MACRO	internal.h	29;"	d
+QUEUE_FULL	mq_queue_manage.h	/^    QUEUE_FULL        =  1,$/;"	e	enum:queue_put_ret
+QUEUE_GET_END	mq_queue_manage.h	/^    QUEUE_GET_END     =  1,$/;"	e	enum:queue_get_ret
+QUEUE_GET_ERROR	mq_queue_manage.h	/^    QUEUE_GET_ERROR   =  2,$/;"	e	enum:queue_get_ret
+QUEUE_GET_OK	mq_queue_manage.h	/^    QUEUE_GET_OK      =  0,$/;"	e	enum:queue_get_ret
+QUEUE_MAX_SIZE_LEN	mq_store_wtag.h	33;"	d
+QUEUE_PUT_ERROR	mq_queue_manage.h	/^    QUEUE_PUT_ERROR   =  3,$/;"	e	enum:queue_put_ret
+QUEUE_PUT_OK	mq_queue_manage.h	/^    QUEUE_PUT_OK      =  0,$/;"	e	enum:queue_put_ret
+QUEUE_WLOCK	mq_queue_manage.h	/^    QUEUE_WLOCK       =  2,$/;"	e	enum:queue_put_ret
+RCOUNT_LEN	mq_store_rtag.h	31;"	d
+READ_OPT_TIMEOUT	mq_store_rtag.h	26;"	d
+READ_OPT_TIMEOUT	mq_store_wtag.h	26;"	d
+REDIR_ERR	util.h	/^    REDIR_ERR = 4,         \/* redir stderr to \/dev\/null *\/$/;"	e	enum:STD_REDIR
+REDIR_IN	util.h	/^    REDIR_IN  = 1,         \/* redir stdin to \/dev\/null  *\/$/;"	e	enum:STD_REDIR
+REDIR_OUT	util.h	/^    REDIR_OUT = 2,         \/* redir stdout to \/dev\/null *\/$/;"	e	enum:STD_REDIR
+RPOS_LEN	mq_store_rtag.h	32;"	d
+RTAG_FILE_HEAD_LEN	mq_store_rtag.h	33;"	d
+RTAG_ITEM_LEN	mq_store_rtag.h	30;"	d
+STD_REDIR	util.h	/^enum STD_REDIR$/;"	g
+STR_TO_LL	mq_store_rtag.c	22;"	d	file:
+STR_TO_LL	mq_store_wtag.c	22;"	d	file:
+S_2_MS	util.c	25;"	d	file:
+S_2_NS	util.c	22;"	d	file:
+UNUSED	internal.h	24;"	d
+UTHASH_H	uthash.h	25;"	d
+UTHASH_VERSION	uthash.h	67;"	d
+UT_hash_bucket	uthash.h	/^typedef struct UT_hash_bucket {$/;"	s
+UT_hash_bucket	uthash.h	/^} UT_hash_bucket;$/;"	t	typeref:struct:UT_hash_bucket
+UT_hash_bucket::count	uthash.h	/^   unsigned count;$/;"	m	struct:UT_hash_bucket	access:public
+UT_hash_bucket::expand_mult	uthash.h	/^   unsigned expand_mult;$/;"	m	struct:UT_hash_bucket	access:public
+UT_hash_bucket::hh_head	uthash.h	/^   struct UT_hash_handle *hh_head;$/;"	m	struct:UT_hash_bucket	typeref:struct:UT_hash_bucket::UT_hash_handle	access:public
+UT_hash_handle	uthash.h	/^typedef struct UT_hash_handle {$/;"	s
+UT_hash_handle	uthash.h	/^} UT_hash_handle;$/;"	t	typeref:struct:UT_hash_handle
+UT_hash_handle::hashv	uthash.h	/^   unsigned hashv;                   \/* result of hash-fcn(key)        *\/$/;"	m	struct:UT_hash_handle	access:public
+UT_hash_handle::hh_next	uthash.h	/^   struct UT_hash_handle *hh_next;   \/* next hh in bucket order        *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle	access:public
+UT_hash_handle::hh_prev	uthash.h	/^   struct UT_hash_handle *hh_prev;   \/* previous hh in bucket order    *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle	access:public
+UT_hash_handle::key	uthash.h	/^   void *key;                        \/* ptr to enclosing struct's key  *\/$/;"	m	struct:UT_hash_handle	access:public
+UT_hash_handle::keylen	uthash.h	/^   unsigned keylen;                  \/* enclosing struct's key len     *\/$/;"	m	struct:UT_hash_handle	access:public
+UT_hash_handle::next	uthash.h	/^   void *next;                       \/* next element in app order      *\/$/;"	m	struct:UT_hash_handle	access:public
+UT_hash_handle::prev	uthash.h	/^   void *prev;                       \/* prev element in app order      *\/$/;"	m	struct:UT_hash_handle	access:public
+UT_hash_handle::tbl	uthash.h	/^   struct UT_hash_table *tbl;$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_table	access:public
+UT_hash_table	uthash.h	/^typedef struct UT_hash_table {$/;"	s
+UT_hash_table	uthash.h	/^} UT_hash_table;$/;"	t	typeref:struct:UT_hash_table
+UT_hash_table::bloom_bv	uthash.h	/^   uint8_t *bloom_bv;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::bloom_nbits	uthash.h	/^   char bloom_nbits;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::bloom_sig	uthash.h	/^   uint32_t bloom_sig; \/* used only to test bloom exists in external analysis *\/$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::buckets	uthash.h	/^   UT_hash_bucket *buckets;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::hho	uthash.h	/^   ptrdiff_t hho; \/* hash handle offset (byte pos of hash handle in element *\/$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::ideal_chain_maxlen	uthash.h	/^   unsigned ideal_chain_maxlen;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::ineff_expands	uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::log2_num_buckets	uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::noexpand	uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::nonideal_items	uthash.h	/^   unsigned nonideal_items;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::num_buckets	uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::num_items	uthash.h	/^   unsigned num_items;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::signature	uthash.h	/^   uint32_t signature; \/* used only to find hash tables in external analysis *\/$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::tail	uthash.h	/^   struct UT_hash_handle *tail; \/* tail hh in app order, for fast append    *\/$/;"	m	struct:UT_hash_table	typeref:struct:UT_hash_table::UT_hash_handle	access:public
+WCOUNT_LEN	mq_store_wtag.h	31;"	d
+WP	uthash.h	502;"	d
+WPOS_LEN	mq_store_wtag.h	32;"	d
+WRITE_OPT_TIMEOUT	mq_store_rtag.h	27;"	d
+WRITE_OPT_TIMEOUT	mq_store_wtag.h	27;"	d
+WTAG_FILE_HEAD_LEN	mq_store_wtag.h	34;"	d
+WTAG_ITEM_LEN	mq_store_wtag.h	30;"	d
+_FILE_OFFSET_BITS	file.c	2;"	d	file:
+_LARGEFILE64_SOURCE	file.c	6;"	d	file:
+__ATOMIC_H__	atomic.h	2;"	d
+__COMMON_H__	common.h	16;"	d
+__CRC16_H__	crc16.h	2;"	d
+__FILE_H__	file.h	2;"	d
+__INTERNAL_H__	internal.h	2;"	d
+__LOG_H__	log.h	2;"	d
+__MQ_CONFIG_H__	mq_config.h	16;"	d
+__MQ_ERRNO_H__	mq_errno.h	16;"	d
+__MQ_QUEUE_MANAGE_H__	mq_queue_manage.h	16;"	d
+__MQ_STORE_FILE_H__	mq_store_file.h	16;"	d
+__MQ_STORE_MANAGE_H__	mq_store_manage.h	16;"	d
+__MQ_STORE_MSG_H__	mq_store_msg.h	16;"	d
+__MQ_STORE_RTAG_H__	mq_store_rtag.h	16;"	d
+__MQ_STORE_wtag_H__	mq_store_wtag.h	16;"	d
+__MQ_UTIL_H__	mq_util.h	16;"	d
+__UTIL_H__	util.h	2;"	d
+_queue	main.c	/^typedef struct _queue$/;"	s	file:
+_queue::is_quit	main.c	/^    bool is_quit;$/;"	m	struct:_queue	file:	access:public
+_queue::qname	main.c	/^    char qname[16];$/;"	m	struct:_queue	file:	access:public
+_queue::recv	main.c	/^    char recv[64];$/;"	m	struct:_queue	file:	access:public
+_queue::send	main.c	/^    char send[64];$/;"	m	struct:_queue	file:	access:public
+app_info	mq_api.c	/^typedef struct app_info$/;"	s	file:
+app_info::count	mq_api.c	/^    uint64_t     count;$/;"	m	struct:app_info	file:	access:public
+app_info::get	mq_api.c	/^    uint32_t     get;$/;"	m	struct:app_info	file:	access:public
+app_info::max_time	mq_api.c	/^    uint32_t     max_time;$/;"	m	struct:app_info	file:	access:public
+app_info::mutex	mq_api.c	/^    pthread_mutex_t mutex;$/;"	m	struct:app_info	file:	access:public
+app_info::put	mq_api.c	/^    uint32_t     put;$/;"	m	struct:app_info	file:	access:public
+app_info::put_size	mq_api.c	/^    uint64_t     put_size;$/;"	m	struct:app_info	file:	access:public
+app_info::times	mq_api.c	/^    uint32_t     times;$/;"	m	struct:app_info	file:	access:public
+app_info::total_time	mq_api.c	/^    uint32_t     total_time;$/;"	m	struct:app_info	file:	access:public
+app_info_t	mq_api.c	/^} app_info_t;$/;"	t	typeref:struct:app_info	file:
+block_read_n	file.c	/^static inline int32_t block_read_n(int fd, void* buf, int32_t size, int32_t timeout)$/;"	f	file:	signature:(int fd, void* buf, int32_t size, int32_t timeout)
+block_read_n	file.c	/^static inline int32_t block_read_n(int fd, void* buf, int32_t size, int32_t timeout);$/;"	p	file:	signature:(int fd, void* buf, int32_t size, int32_t timeout)
+block_write_n	file.c	/^static inline int32_t block_write_n(int fd, const void* buf, int32_t size, int32_t timeout)$/;"	f	file:	signature:(int fd, const void* buf, int32_t size, int32_t timeout)
+block_write_n	file.c	/^static inline int32_t block_write_n(int fd, const void* buf, int32_t size, int32_t timeout);$/;"	p	file:	signature:(int fd, const void* buf, int32_t size, int32_t timeout)
+bloom_bv	uthash.h	/^   uint8_t *bloom_bv;$/;"	m	struct:UT_hash_table	access:public
+bloom_nbits	uthash.h	/^   char bloom_nbits;$/;"	m	struct:UT_hash_table	access:public
+bloom_sig	uthash.h	/^   uint32_t bloom_sig; \/* used only to test bloom exists in external analysis *\/$/;"	m	struct:UT_hash_table	access:public
+buckets	uthash.h	/^   UT_hash_bucket *buckets;$/;"	m	struct:UT_hash_table	access:public
+check_rtag_item	mq_store_rtag.c	/^static bool check_rtag_item(mq_queue_t *mq_queue)$/;"	f	file:	signature:(mq_queue_t *mq_queue)
+check_rtag_item	mq_store_rtag.c	/^static bool check_rtag_item(mq_queue_t *mq_queue);$/;"	p	file:	signature:(mq_queue_t *mq_queue)
+check_wtag_item	mq_store_wtag.c	/^static bool check_wtag_item(mq_queue_t *mq_queue)$/;"	f	file:	signature:(mq_queue_t *mq_queue)
+check_wtag_item	mq_store_wtag.c	/^static bool check_wtag_item(mq_queue_t *mq_queue);$/;"	p	file:	signature:(mq_queue_t *mq_queue)
+count	mq_api.c	/^    uint64_t     count;$/;"	m	struct:app_info	file:	access:public
+count	uthash.h	/^   unsigned count;$/;"	m	struct:UT_hash_bucket	access:public
+crc16	mq_util.h	/^    uint16_t       crc16;          \/* message body crc16 *\/$/;"	m	struct:msg_item	access:public
+crc16_append	crc16.c	/^bool crc16_append(uint16_t* crc16, const void* data, int32_t len)$/;"	f	signature:(uint16_t* crc16, const void* data, int32_t len)
+crc16_append	crc16.h	/^extern bool crc16_append(uint16_t* crc16, const void* data, int32_t len);$/;"	p	signature:(uint16_t* crc16, const void* data, int32_t len)
+crc16tab	crc16.c	/^static const uint16_t crc16tab[]={$/;"	v	file:
+cur_index	mq_util.h	/^    uint64_t       cur_index;$/;"	m	struct:mq_db_map	access:public
+cur_rdb	mq_util.h	/^    mq_db_map_t    cur_rdb;        \/* current read db *\/$/;"	m	struct:mq_queue	access:public
+cur_wdb	mq_util.h	/^    mq_db_map_t    cur_wdb;        \/* current write db *\/$/;"	m	struct:mq_queue	access:public
+data_file_path	mq_config.h	/^    char         data_file_path[128];    \/* data_path *\/$/;"	m	struct:ucmq_conf	access:public
+day	log.c	/^        uint16_t    day;$/;"	m	struct:time_info::__anon1	file:	access:public
+db_file_max_size	mq_config.h	/^    int          db_file_max_size;       \/* db file size *\/$/;"	m	struct:ucmq_conf	access:public
+def_max_queue	mq_config.h	/^    uint32_t     def_max_queue;          \/* queue_size *\/$/;"	m	struct:ucmq_conf	access:public
+delay	mq_util.h	/^    uint32_t       delay;          \/* message delay *\/$/;"	m	struct:msg_item	access:public
+delete_file	mq_util.c	/^void delete_file(const char *path)$/;"	f	signature:(const char *path)
+delete_file	mq_util.h	/^void delete_file(const char *path);$/;"	p	signature:(const char *path)
+do_getpid	util.h	174;"	d
+do_gettid	util.c	/^int do_gettid(void)$/;"	f	signature:(void)
+do_gettid	util.h	/^extern int do_gettid(void);$/;"	p	signature:(void)
+do_mkdir	util.c	/^int do_mkdir(const char* dir, mode_t mode)$/;"	f	signature:(const char* dir, mode_t mode)
+do_mkdir	util.h	/^extern int do_mkdir(const char* dir, mode_t mode);$/;"	p	signature:(const char* dir, mode_t mode)
+do_sleep	util.c	/^int do_sleep(int32_t timeout)$/;"	f	signature:(int32_t timeout)
+do_sleep	util.h	/^extern int do_sleep(int32_t timeout);$/;"	p	signature:(int32_t timeout)
+expand_mult	uthash.h	/^   unsigned expand_mult;$/;"	m	struct:UT_hash_bucket	access:public
+extend_file_size	mq_util.c	/^bool extend_file_size(const int fd, off_t length)$/;"	f	signature:(const int fd, off_t length)
+extend_file_size	mq_util.h	/^bool extend_file_size(const int fd, off_t length);$/;"	p	signature:(const int fd, off_t length)
+fd	mq_util.h	/^    int            fd;$/;"	m	struct:mq_db_map	access:public
+fd_block	file.h	/^typedef enum fd_block$/;"	g
+fd_block_e	file.h	/^} fd_block_e;$/;"	t	typeref:enum:fd_block
+file_open_flag	mq_store_file.h	/^typedef enum file_open_flag $/;"	g
+file_open_flag_e	mq_store_file.h	/^}file_open_flag_e;$/;"	t	typeref:enum:file_open_flag
+find_handle_file	mq_store_file.c	/^bool find_handle_file(queue_file_t *queue_file, char *qname)$/;"	f	signature:(queue_file_t *queue_file, char *qname)
+find_handle_file	mq_store_file.h	/^bool find_handle_file(queue_file_t *queue_file, char *qname);$/;"	p	signature:(queue_file_t *queue_file, char *qname)
+flag	mq_util.h	/^    int            flag;          \/* is mmap flag *\/$/;"	m	struct:mq_db_map	access:public
+g_config	log.c	/^static log_config_t g_config;$/;"	v	file:
+g_has_fork	log.c	/^static volatile int     g_has_fork = 0;$/;"	v	file:
+g_has_init	log.c	/^static volatile int     g_has_init = 0;$/;"	v	file:
+g_index	main.c	/^int g_index = 0;$/;"	v
+g_info	mq_api.c	/^app_info_t g_info;$/;"	v
+g_last_info	mq_api.c	/^app_info_t g_last_info;$/;"	v
+g_mq_conf	mq_config.c	/^ucmq_conf_t g_mq_conf =$/;"	v
+g_mq_qlist	mq_queue_manage.c	/^mq_queue_list_t* g_mq_qlist;$/;"	v
+g_pid	log.c	/^static volatile pid_t   g_pid      = 0;$/;"	v	file:
+get	mq_api.c	/^    uint32_t     get;$/;"	m	struct:app_info	file:	access:public
+get16bits	uthash.h	431;"	d
+get16bits	uthash.h	434;"	d
+get16bits	uthash.h	438;"	d
+get_a_msg	main.c	/^void *get_a_msg(void *args)$/;"	f	signature:(void *args)
+get_abs_time	util.c	/^struct timespec get_abs_time(int32_t time_affter)$/;"	f	signature:(int32_t time_affter)
+get_abs_time	util.h	/^extern struct timespec get_abs_time(int32_t time_affter);$/;"	p	signature:(int32_t time_affter)
+get_cur_timestamp	mq_util.c	/^int get_cur_timestamp() $/;"	f
+get_cur_timestamp	mq_util.h	/^int  get_cur_timestamp(void);$/;"	p	signature:(void)
+get_file_path	mq_util.c	/^void get_file_path(const char *path, const char *file_name,  char *file_path)$/;"	f	signature:(const char *path, const char *file_name, char *file_path)
+get_file_size	mq_util.c	/^int get_file_size(const char *path)$/;"	f	signature:(const char *path)
+get_file_size	mq_util.h	/^int  get_file_size(const char* path);$/;"	p	signature:(const char* path)
+get_id_by_fname	mq_store_file.c	/^static uint64_t get_id_by_fname(const char *qname);$/;"	p	file:	signature:(const char *qname)
+get_id_by_fname	mq_store_file.c	/^static uint64_t get_id_by_fname(const char* qname)$/;"	f	file:	signature:(const char* qname)
+get_msg	main.c	/^void *get_msg(void *args)$/;"	f	signature:(void *args)
+get_next_read_file	mq_store_file.c	/^bool get_next_read_file(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+get_next_read_file	mq_store_file.h	/^bool get_next_read_file(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+get_next_write_file	mq_store_file.c	/^bool get_next_write_file(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+get_next_write_file	mq_store_file.h	/^bool get_next_write_file(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+get_num	mq_util.h	/^    uint64_t       get_num;        \/* get msg number *\/$/;"	m	struct:mq_queue	access:public
+get_page_size	mq_util.c	/^int get_page_size()$/;"	f
+get_page_size	mq_util.h	/^int  get_page_size(void);$/;"	p	signature:(void)
+get_rand	util.h	/^extern int32_t get_rand(void);$/;"	p	signature:(void)
+get_rel_time	util.c	/^int32_t get_rel_time(const struct timespec* abs_time)$/;"	f	signature:(const struct timespec* abs_time)
+get_rel_time	util.h	/^extern int32_t get_rel_time(const struct timespec* abs_time);$/;"	p	signature:(const struct timespec* abs_time)
+get_self_path	util.c	/^const char* get_self_path(void)$/;"	f	signature:(void)
+get_self_path	util.h	/^extern const char* get_self_path(void);$/;"	p	signature:(void)
+get_storage_free	mq_util.c	/^int get_storage_free(const char* path)$/;"	f	signature:(const char* path)
+get_storage_free	mq_util.h	/^int  get_storage_free(const char* path);$/;"	p	signature:(const char* path)
+get_time	log.c	/^static time_info get_time(void)$/;"	f	file:	signature:(void)
+get_time	log.c	/^static time_info get_time(void);$/;"	p	file:	signature:(void)
+get_time_diff_nsec	util.c	/^int64_t get_time_diff_nsec(const struct timespec* start, const struct timespec* end)$/;"	f	signature:(const struct timespec* start, const struct timespec* end)
+get_time_diff_nsec	util.h	/^extern int64_t get_time_diff_nsec(const struct timespec* start,$/;"	p	signature:(const struct timespec* start, const struct timespec* end)
+get_time_diff_sec	util.c	/^double get_time_diff_sec(const struct timespec* start, const struct timespec* end)$/;"	f	signature:(const struct timespec* start, const struct timespec* end)
+get_time_diff_sec	util.h	/^extern double get_time_diff_sec(const struct timespec* start,$/;"	p	signature:(const struct timespec* start, const struct timespec* end)
+get_time_tick	util.c	/^struct timespec get_time_tick(void)$/;"	f	signature:(void)
+get_time_tick	util.h	/^extern struct timespec get_time_tick(void);$/;"	p	signature:(void)
+hash_add_queue_kv	mq_queue_manage.c	/^mq_queue_t* hash_add_queue_kv(const char* qname, mq_queue_t* queue)$/;"	f	signature:(const char* qname, mq_queue_t* queue)
+hash_clear_queue	mq_queue_manage.c	/^bool hash_clear_queue()$/;"	f
+hash_del_queue	mq_queue_manage.c	/^void hash_del_queue(const char* qname)$/;"	f	signature:(const char* qname)
+hash_find_queue_by_key	mq_queue_manage.c	/^mq_queue_t* hash_find_queue_by_key(const char* qname)$/;"	f	signature:(const char* qname)
+hash_get_queue_num	mq_queue_manage.c	/^int hash_get_queue_num()$/;"	f
+hash_print_table	mq_queue_manage.c	/^void hash_print_table()$/;"	f
+hashv	uthash.h	/^   unsigned hashv;                   \/* result of hash-fcn(key)        *\/$/;"	m	struct:UT_hash_handle	access:public
+hh	mq_util.h	/^    UT_hash_handle hh;             \/* makes this structure hashable *\/$/;"	m	struct:mq_queue_list	access:public
+hh_head	uthash.h	/^   struct UT_hash_handle *hh_head;$/;"	m	struct:UT_hash_bucket	typeref:struct:UT_hash_bucket::UT_hash_handle	access:public
+hh_next	uthash.h	/^   struct UT_hash_handle *hh_next;   \/* next hh in bucket order        *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle	access:public
+hh_prev	uthash.h	/^   struct UT_hash_handle *hh_prev;   \/* previous hh in bucket order    *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle	access:public
+hho	uthash.h	/^   ptrdiff_t hho; \/* hash handle offset (byte pos of hash handle in element *\/$/;"	m	struct:UT_hash_table	access:public
+hour	log.c	/^        uint8_t     hour;$/;"	m	struct:time_info::__anon1	file:	access:public
+ideal_chain_maxlen	uthash.h	/^   unsigned ideal_chain_maxlen;$/;"	m	struct:UT_hash_table	access:public
+ineff_expands	uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table	access:public
+init_queue	mq_queue_manage.c	/^static bool init_queue(mq_queue_t *mq_queue)$/;"	f	file:	signature:(mq_queue_t *mq_queue)
+init_queue	mq_queue_manage.c	/^static bool init_queue(mq_queue_t *mq_queue);$/;"	p	file:	signature:(mq_queue_t *mq_queue)
+is_dir	mq_util.c	/^bool is_dir(const char *path)$/;"	f	signature:(const char *path)
+is_dir	mq_util.h	/^bool is_dir(const char *path);$/;"	p	signature:(const char *path)
+is_file	mq_util.c	/^bool is_file(const char *path)$/;"	f	signature:(const char *path)
+is_file	mq_util.h	/^bool is_file(const char *path);$/;"	p	signature:(const char *path)
+is_nonblock	file.c	/^static inline int is_nonblock(int fd, fd_block_e block_type)$/;"	f	file:	signature:(int fd, fd_block_e block_type)
+is_nonblock	file.c	/^static inline int is_nonblock(int fd, fd_block_e block_type);$/;"	p	file:	signature:(int fd, fd_block_e block_type)
+is_num_str	mq_util.c	/^int is_num_str(const char *s)$/;"	f	signature:(const char *s)
+is_num_str	mq_util.h	/^int  is_num_str(const char *s);$/;"	p	signature:(const char *s)
+is_quit	main.c	/^    bool is_quit;$/;"	m	struct:_queue	file:	access:public
+is_special_dir	mq_util.c	/^bool is_special_dir(const char *path)$/;"	f	signature:(const char *path)
+is_special_dir	mq_util.h	/^bool is_special_dir(const char *path);$/;"	p	signature:(const char *path)
+key	uthash.h	/^   void *key;                        \/* ptr to enclosing struct's key  *\/$/;"	m	struct:UT_hash_handle	access:public
+keylen	uthash.h	/^   unsigned keylen;                  \/* enclosing struct's key len     *\/$/;"	m	struct:UT_hash_handle	access:public
+len	mq_util.h	/^    uint32_t       len;            \/* message body len *\/$/;"	m	struct:msg_item	access:public
+log2_num_buckets	uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table	access:public
+log_config	log.h	/^typedef struct log_config$/;"	s
+log_config::log_file	log.h	/^    char        log_file[NAME_MAX]; \/* log file prefix *\/$/;"	m	struct:log_config	access:public
+log_config::log_level	log.h	/^    uint16_t    log_level;          \/* output log level *\/$/;"	m	struct:log_config	access:public
+log_config::log_path	log.h	/^    char        log_path[PATH_MAX]; \/* log dir *\/$/;"	m	struct:log_config	access:public
+log_config::time_zone	log.h	/^    uint32_t    time_zone;          \/* local time zone (GMT+8 should be 8) *\/$/;"	m	struct:log_config	access:public
+log_config_t	log.h	/^}log_config_t;$/;"	t	typeref:struct:log_config
+log_debug	log.h	17;"	d
+log_error	log.h	20;"	d
+log_fatal	log.h	21;"	d
+log_file	log.h	/^    char        log_file[NAME_MAX]; \/* log file prefix *\/$/;"	m	struct:log_config	access:public
+log_info	log.h	18;"	d
+log_init	log.c	/^int log_init(const log_config_t* config)$/;"	f	signature:(const log_config_t* config)
+log_init	log.h	/^extern int log_init(const log_config_t* config);$/;"	p	signature:(const log_config_t* config)
+log_init_config	log.c	/^void log_init_config(log_config_t* config)$/;"	f	signature:(log_config_t* config)
+log_init_config	log.h	/^extern void log_init_config(log_config_t* config);$/;"	p	signature:(log_config_t* config)
+log_level	log.h	/^    uint16_t    log_level;          \/* output log level *\/$/;"	m	struct:log_config	access:public
+log_path	log.h	/^    char        log_path[PATH_MAX]; \/* log dir *\/$/;"	m	struct:log_config	access:public
+log_trace	log.h	16;"	d
+log_warn	log.h	19;"	d
+log_write	log.c	/^void log_write(const char* module, $/;"	f	signature:(const char* module, const char* file, int line, uint16_t level, const char* format, ...)
+log_write	log.h	/^extern void log_write(const char* module, $/;"	p	signature:(const char* module, const char* file, int line, uint16_t level, const char* format, ...)
+log_write_impl	log.c	/^static void log_write_impl(const char* module, $/;"	f	file:	signature:(const char* module, const char* file, int line, uint16_t level, const char* level_str, const char* format, va_list ap)
+log_write_impl	log.c	/^static void log_write_impl(const char* module, $/;"	p	file:	signature:(const char* module, const char* file, int line, uint16_t level, const char* level_str, const char* format, va_list ap)
+log_writev	log.c	/^void log_writev(const char* module, $/;"	f	signature:(const char* module, const char* file, int line, uint16_t level, const char* format, va_list ap)
+log_writev	log.h	/^extern void log_writev(const char* module, $/;"	p	signature:(const char* module, const char* file, int line, uint16_t level, const char* format, va_list ap)
+magic_num1	mq_util.h	/^    char           magic_num1;     \/* magic number *\/$/;"	m	struct:msg_item	access:public
+magic_num2	mq_util.h	/^    char           magic_num2;     \/* magic number *\/$/;"	m	struct:msg_item	access:public
+main	main.c	/^int main()$/;"	f
+map_mem	mq_util.h	/^    char           *map_mem;$/;"	m	struct:mq_db_map	access:public
+max	mq_util.c	/^inline int max(int a, int b) {return (a < b) ? b : a;}$/;"	f	signature:(int a, int b)
+max	mq_util.h	/^int max(int a, int b);$/;"	p	signature:(int a, int b)
+max_qlist_itmes	mq_config.h	/^    int          max_qlist_itmes;        \/* queue list items limit *\/$/;"	m	struct:ucmq_conf	access:public
+max_time	mq_api.c	/^    uint32_t     max_time;$/;"	m	struct:app_info	file:	access:public
+maxque	mq_util.h	/^    uint32_t       maxque;         \/* mas queue items *\/$/;"	m	struct:mq_queue	access:public
+min	log.c	/^        uint8_t     min;$/;"	m	struct:time_info::__anon1	file:	access:public
+min	mq_util.c	/^inline int min(int a, int b) {return (a >= b) ? b : a;}$/;"	f	signature:(int a, int b)
+min	mq_util.h	/^int min(int a, int b); $/;"	p	signature:(int a, int b)
+mq_db_map	mq_util.h	/^typedef struct mq_db_map$/;"	s
+mq_db_map::cur_index	mq_util.h	/^    uint64_t       cur_index;$/;"	m	struct:mq_db_map	access:public
+mq_db_map::fd	mq_util.h	/^    int            fd;$/;"	m	struct:mq_db_map	access:public
+mq_db_map::flag	mq_util.h	/^    int            flag;          \/* is mmap flag *\/$/;"	m	struct:mq_db_map	access:public
+mq_db_map::map_mem	mq_util.h	/^    char           *map_mem;$/;"	m	struct:mq_db_map	access:public
+mq_db_map::opt_count	mq_util.h	/^    uint32_t       opt_count;$/;"	m	struct:mq_db_map	access:public
+mq_db_map::pos	mq_util.h	/^    uint32_t       pos;$/;"	m	struct:mq_db_map	access:public
+mq_db_map::stat	mq_util.h	/^    int            stat;$/;"	m	struct:mq_db_map	access:public
+mq_db_map_t	mq_util.h	/^}mq_db_map_t;$/;"	t	typeref:struct:mq_db_map
+mq_errno	mq_errno.c	/^int32_t mq_errno(void)$/;"	f	signature:(void)
+mq_errno	mq_errno.h	/^extern int32_t mq_errno(void);$/;"	p	signature:(void)
+mq_last_error	mq_errno.c	/^const char* mq_last_error(void)$/;"	f	signature:(void)
+mq_last_error	mq_errno.h	/^extern const char* mq_last_error(void);$/;"	p	signature:(void)
+mq_qm_add_queue	mq_queue_manage.c	/^mq_queue_t* mq_qm_add_queue(const char *qname)$/;"	f	signature:(const char *qname)
+mq_qm_add_queue	mq_queue_manage.h	/^mq_queue_t* mq_qm_add_queue(const char* qname);$/;"	p	signature:(const char* qname)
+mq_qm_close_store	mq_queue_manage.c	/^bool mq_qm_close_store(void)$/;"	f	signature:(void)
+mq_qm_close_store	mq_queue_manage.h	/^bool     mq_qm_close_store(void);$/;"	p	signature:(void)
+mq_qm_db_sync	mq_queue_manage.c	/^static bool mq_qm_db_sync(mq_queue_t *mq_queue)$/;"	f	file:	signature:(mq_queue_t *mq_queue)
+mq_qm_db_sync	mq_queue_manage.c	/^static bool mq_qm_db_sync(mq_queue_t *mq_queue);$/;"	p	file:	signature:(mq_queue_t *mq_queue)
+mq_qm_del_queue	mq_queue_manage.c	/^bool mq_qm_del_queue(const char *qname)$/;"	f	signature:(const char *qname)
+mq_qm_del_queue	mq_queue_manage.h	/^bool mq_qm_del_queue(const char* qname);$/;"	p	signature:(const char* qname)
+mq_qm_find_queue	mq_queue_manage.c	/^mq_queue_t* mq_qm_find_queue(const char *qname)$/;"	f	signature:(const char *qname)
+mq_qm_find_queue	mq_queue_manage.h	/^mq_queue_t* mq_qm_find_queue(const char *qname);$/;"	p	signature:(const char *qname)
+mq_qm_get_store_count	mq_queue_manage.c	/^uint64_t mq_qm_get_store_count(void)$/;"	f	signature:(void)
+mq_qm_get_store_count	mq_queue_manage.h	/^uint64_t mq_qm_get_store_count(void);$/;"	p	signature:(void)
+mq_qm_open_store	mq_queue_manage.c	/^bool mq_qm_open_store(void)$/;"	f	signature:(void)
+mq_qm_open_store	mq_queue_manage.h	/^bool     mq_qm_open_store(void);$/;"	p	signature:(void)
+mq_qm_pop_item	mq_queue_manage.c	/^int mq_qm_pop_item(mq_queue_t *mq_queue, msg_item_t *msg_item)$/;"	f	signature:(mq_queue_t *mq_queue, msg_item_t *msg_item)
+mq_qm_pop_item	mq_queue_manage.h	/^int  mq_qm_pop_item(mq_queue_t *mq_queue, msg_item_t *msg_item);$/;"	p	signature:(mq_queue_t *mq_queue, msg_item_t *msg_item)
+mq_qm_push_item	mq_queue_manage.c	/^int mq_qm_push_item(mq_queue_t *mq_queue, msg_item_t *msg_item)$/;"	f	signature:(mq_queue_t *mq_queue, msg_item_t *msg_item)
+mq_qm_push_item	mq_queue_manage.h	/^int  mq_qm_push_item(mq_queue_t *mq_queue, msg_item_t *msg_item);$/;"	p	signature:(mq_queue_t *mq_queue, msg_item_t *msg_item)
+mq_qm_set_maxqueue	mq_queue_manage.c	/^bool mq_qm_set_maxqueue(mq_queue_t *mq_queue, uint32_t dest_max_queue_size)$/;"	f	signature:(mq_queue_t *mq_queue, uint32_t dest_max_queue_size)
+mq_qm_set_maxqueue	mq_queue_manage.h	/^bool mq_qm_set_maxqueue(mq_queue_t *mq_queue, uint32_t max_queue);$/;"	p	signature:(mq_queue_t *mq_queue, uint32_t max_queue)
+mq_qm_set_synctime	mq_queue_manage.c	/^bool mq_qm_set_synctime(int sync_interval)$/;"	f	signature:(int sync_interval)
+mq_qm_set_synctime	mq_queue_manage.h	/^bool mq_qm_set_synctime(int sync_interval);$/;"	p	signature:(int sync_interval)
+mq_qm_sync_store	mq_queue_manage.c	/^void mq_qm_sync_store(void)$/;"	f	signature:(void)
+mq_qm_sync_store	mq_queue_manage.h	/^void     mq_qm_sync_store(void);$/;"	p	signature:(void)
+mq_queue	mq_util.h	/^    mq_queue_t mq_queue;           \/* node of hash table *\/$/;"	m	struct:mq_queue_list	access:public
+mq_queue	mq_util.h	/^typedef struct mq_queue$/;"	s
+mq_queue::cur_rdb	mq_util.h	/^    mq_db_map_t    cur_rdb;        \/* current read db *\/$/;"	m	struct:mq_queue	access:public
+mq_queue::cur_wdb	mq_util.h	/^    mq_db_map_t    cur_wdb;        \/* current write db *\/$/;"	m	struct:mq_queue	access:public
+mq_queue::get_num	mq_util.h	/^    uint64_t       get_num;        \/* get msg number *\/$/;"	m	struct:mq_queue	access:public
+mq_queue::maxque	mq_util.h	/^    uint32_t       maxque;         \/* mas queue items *\/$/;"	m	struct:mq_queue	access:public
+mq_queue::mutex	mq_util.h	/^    pthread_mutex_t mutex;$/;"	m	struct:mq_queue	access:public
+mq_queue::put_num	mq_util.h	/^    uint64_t       put_num;        \/* put msg number *\/$/;"	m	struct:mq_queue	access:public
+mq_queue::qname	mq_util.h	/^    char           qname[32 + 1];  \/* queue name *\/$/;"	m	struct:mq_queue	access:public
+mq_queue::rtag_fd	mq_util.h	/^    int            rtag_fd;        \/* rtag file fd *\/$/;"	m	struct:mq_queue	access:public
+mq_queue::sync_intv	mq_util.h	/^    int            sync_intv;      \/* sync inteval *\/$/;"	m	struct:mq_queue	access:public
+mq_queue::wtag_fd	mq_util.h	/^    int            wtag_fd;        \/* rtag file fd *\/$/;"	m	struct:mq_queue	access:public
+mq_queue_list	mq_util.h	/^typedef struct mq_queue_list$/;"	s
+mq_queue_list::hh	mq_util.h	/^    UT_hash_handle hh;             \/* makes this structure hashable *\/$/;"	m	struct:mq_queue_list	access:public
+mq_queue_list::mq_queue	mq_util.h	/^    mq_queue_t mq_queue;           \/* node of hash table *\/$/;"	m	struct:mq_queue_list	access:public
+mq_queue_list::qname	mq_util.h	/^    char qname[32 + 1];            \/* key *\/$/;"	m	struct:mq_queue_list	access:public
+mq_queue_list_t	mq_util.h	/^}mq_queue_list_t;$/;"	t	typeref:struct:mq_queue_list
+mq_queue_t	mq_util.h	/^}mq_queue_t;$/;"	t	typeref:struct:mq_queue
+mq_sm_close_db	mq_store_manage.c	/^bool mq_sm_close_db(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_close_db	mq_store_manage.h	/^bool mq_sm_close_db(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_sm_close_db_file	mq_store_manage.c	/^static bool mq_sm_close_db_file(void* map_mem, int fd)$/;"	f	file:	signature:(void* map_mem, int fd)
+mq_sm_close_db_file	mq_store_manage.c	/^static bool mq_sm_close_db_file(void* map_mem, int fd);$/;"	p	file:	signature:(void* map_mem, int fd)
+mq_sm_creat_db	mq_store_manage.c	/^bool mq_sm_creat_db(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_creat_db	mq_store_manage.h	/^bool mq_sm_creat_db(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_sm_db_build_msg_crc16	mq_store_msg.c	/^bool mq_sm_db_build_msg_crc16(uint16_t* crc, const char* data, int len)$/;"	f	signature:(uint16_t* crc, const char* data, int len)
+mq_sm_db_build_msg_crc16	mq_store_msg.h	/^bool mq_sm_db_build_msg_crc16(uint16_t* crc, const char* data, int len);$/;"	p	signature:(uint16_t* crc, const char* data, int len)
+mq_sm_db_cal_msg_count	mq_store_msg.c	/^uint32_t mq_sm_db_cal_msg_count(int fd, uint32_t end_pos)$/;"	f	signature:(int fd, uint32_t end_pos)
+mq_sm_db_cal_msg_count	mq_store_msg.h	/^uint32_t mq_sm_db_cal_msg_count(int fd, uint32_t end_pos);$/;"	p	signature:(int fd, uint32_t end_pos)
+mq_sm_db_parse_msg	mq_store_msg.c	/^int mq_sm_db_parse_msg(const char* msg, uint32_t cur_pos, msg_item_t* msg_item)$/;"	f	signature:(const char* msg, uint32_t cur_pos, msg_item_t* msg_item)
+mq_sm_db_parse_msg	mq_store_msg.h	/^int  mq_sm_db_parse_msg(const char* msg, uint32_t cur_pos, msg_item_t* msg_item);$/;"	p	signature:(const char* msg, uint32_t cur_pos, msg_item_t* msg_item)
+mq_sm_db_parse_msg_head	mq_store_msg.c	/^bool mq_sm_db_parse_msg_head(msg_item_t *item, const char *msg_head)$/;"	f	signature:(msg_item_t *item, const char *msg_head)
+mq_sm_db_parse_msg_head	mq_store_msg.h	/^bool mq_sm_db_parse_msg_head(msg_item_t *item, const char *msg_head);$/;"	p	signature:(msg_item_t *item, const char *msg_head)
+mq_sm_db_write_file_head	mq_store_msg.c	/^bool mq_sm_db_write_file_head(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_db_write_file_head	mq_store_msg.h	/^bool mq_sm_db_write_file_head(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_sm_db_write_msg	mq_store_msg.c	/^bool mq_sm_db_write_msg(mq_queue_t *mq_queue, msg_item_t *msg_item)$/;"	f	signature:(mq_queue_t *mq_queue, msg_item_t *msg_item)
+mq_sm_db_write_msg	mq_store_msg.h	/^bool mq_sm_db_write_msg(mq_queue_t *mq_queue, msg_item_t *msg_item);$/;"	p	signature:(mq_queue_t *mq_queue, msg_item_t *msg_item)
+mq_sm_get_data	mq_store_manage.c	/^bool mq_sm_get_data(msg_item_t* msg_item, mq_queue_t* mq_queue)$/;"	f	signature:(msg_item_t* msg_item, mq_queue_t* mq_queue)
+mq_sm_get_data	mq_store_manage.h	/^bool mq_sm_get_data(msg_item_t *msg_item, mq_queue_t *mq_queue);$/;"	p	signature:(msg_item_t *msg_item, mq_queue_t *mq_queue)
+mq_sm_get_msg_count	mq_store_manage.c	/^uint64_t mq_sm_get_msg_count(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_get_msg_count	mq_store_manage.h	/^uint64_t mq_sm_get_msg_count(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_sm_open_db	mq_store_manage.c	/^bool mq_sm_open_db(mq_queue_t *mq_queue, queue_file_t *queue_file)$/;"	f	signature:(mq_queue_t *mq_queue, queue_file_t *queue_file)
+mq_sm_open_db	mq_store_manage.h	/^bool mq_sm_open_db(mq_queue_t *mq_queue, queue_file_t *queue_file);$/;"	p	signature:(mq_queue_t *mq_queue, queue_file_t *queue_file)
+mq_sm_open_db_file	mq_store_file.c	/^char* mq_sm_open_db_file(int* fd, const char* db_fname, int open_flag)$/;"	f	signature:(int* fd, const char* db_fname, int open_flag)
+mq_sm_open_db_file	mq_store_file.h	/^char* mq_sm_open_db_file(int* fd, const char* db_fname, int open_flag);$/;"	p	signature:(int* fd, const char* db_fname, int open_flag)
+mq_sm_put_data	mq_store_manage.c	/^bool mq_sm_put_data(msg_item_t *msg_item, mq_queue_t *mq_queue)$/;"	f	signature:(msg_item_t *msg_item, mq_queue_t *mq_queue)
+mq_sm_put_data	mq_store_manage.h	/^bool mq_sm_put_data(msg_item_t *msg_item, mq_queue_t *mq_queue);$/;"	p	signature:(msg_item_t *msg_item, mq_queue_t *mq_queue)
+mq_sm_remove_db	mq_store_manage.c	/^bool mq_sm_remove_db(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_remove_db	mq_store_manage.h	/^bool mq_sm_remove_db(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_sm_rtag_close_file	mq_store_rtag.c	/^bool mq_sm_rtag_close_file(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_rtag_close_file	mq_store_rtag.h	/^bool mq_sm_rtag_close_file(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_sm_rtag_open_file	mq_store_rtag.c	/^bool mq_sm_rtag_open_file(mq_queue_t *mq_queue, queue_file_t *queue_file)$/;"	f	signature:(mq_queue_t *mq_queue, queue_file_t *queue_file)
+mq_sm_rtag_open_file	mq_store_rtag.h	/^bool mq_sm_rtag_open_file(mq_queue_t *mq_queue, queue_file_t *queue_file);$/;"	p	signature:(mq_queue_t *mq_queue, queue_file_t *queue_file)
+mq_sm_rtag_open_next_file	mq_store_rtag.c	/^int mq_sm_rtag_open_next_file(const char* file_name)$/;"	f	signature:(const char* file_name)
+mq_sm_rtag_open_next_file	mq_store_rtag.h	/^int  mq_sm_rtag_open_next_file(const char* file_name);$/;"	p	signature:(const char* file_name)
+mq_sm_rtag_read_item	mq_store_rtag.c	/^bool mq_sm_rtag_read_item(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_rtag_read_item	mq_store_rtag.h	/^bool mq_sm_rtag_read_item(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_sm_rtag_write_item	mq_store_rtag.c	/^bool mq_sm_rtag_write_item(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_rtag_write_item	mq_store_rtag.h	/^bool mq_sm_rtag_write_item(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_sm_wtag_close_file	mq_store_wtag.c	/^bool mq_sm_wtag_close_file(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_wtag_close_file	mq_store_wtag.h	/^bool mq_sm_wtag_close_file(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_sm_wtag_open_file	mq_store_wtag.c	/^bool mq_sm_wtag_open_file(mq_queue_t *mq_queue, queue_file_t *queue_file)$/;"	f	signature:(mq_queue_t *mq_queue, queue_file_t *queue_file)
+mq_sm_wtag_open_file	mq_store_wtag.h	/^bool mq_sm_wtag_open_file(mq_queue_t *mq_queue, queue_file_t *queue_file);$/;"	p	signature:(mq_queue_t *mq_queue, queue_file_t *queue_file)
+mq_sm_wtag_open_next_file	mq_store_wtag.c	/^int mq_sm_wtag_open_next_file(const char* file_name)$/;"	f	signature:(const char* file_name)
+mq_sm_wtag_open_next_file	mq_store_wtag.h	/^int  mq_sm_wtag_open_next_file(const char* file_name);$/;"	p	signature:(const char* file_name)
+mq_sm_wtag_read_item	mq_store_wtag.c	/^bool mq_sm_wtag_read_item(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_wtag_read_item	mq_store_wtag.h	/^bool mq_sm_wtag_read_item(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_sm_wtag_write_item	mq_store_wtag.c	/^bool mq_sm_wtag_write_item(mq_queue_t *mq_queue)$/;"	f	signature:(mq_queue_t *mq_queue)
+mq_sm_wtag_write_item	mq_store_wtag.h	/^bool mq_sm_wtag_write_item(mq_queue_t *mq_queue);$/;"	p	signature:(mq_queue_t *mq_queue)
+mq_store_close	mq_api.c	/^void mq_store_close(void)$/;"	f	signature:(void)
+mq_store_close	mq_api.h	/^void mq_store_close(void);$/;"	p	signature:(void)
+mq_store_get	mq_api.c	/^bool mq_store_get(const char *qname, char *msg, int msg_len)$/;"	f	signature:(const char *qname, char *msg, int msg_len)
+mq_store_get	mq_api.h	/^bool mq_store_get(const char *qname, char *msg, int msg_len);$/;"	p	signature:(const char *qname, char *msg, int msg_len)
+mq_store_init	mq_api.c	/^bool mq_store_init(const char *log_path, const char *data_path)$/;"	f	signature:(const char *log_path, const char *data_path)
+mq_store_init	mq_api.h	/^bool mq_store_init(const char *log_path, const char *data_path);$/;"	p	signature:(const char *log_path, const char *data_path)
+mq_store_put	mq_api.c	/^bool mq_store_put(const char *qname, const char *msg, int msg_len)$/;"	f	signature:(const char *qname, const char *msg, int msg_len)
+mq_store_put	mq_api.h	/^bool mq_store_put(const char *qname, const char *msg, int msg_len);$/;"	p	signature:(const char *qname, const char *msg, int msg_len)
+mq_strerror	mq_errno.c	/^const char* mq_strerror(int32_t error_number)$/;"	f	signature:(int32_t error_number)
+mq_strerror	mq_errno.h	/^extern const char* mq_strerror(int32_t error_number);$/;"	p	signature:(int32_t error_number)
+msec	log.c	/^        uint16_t    msec;$/;"	m	struct:time_info::__anon1	file:	access:public
+msg	mq_util.h	/^    char           *msg;           \/* message message boby *\/$/;"	m	struct:msg_item	access:public
+msg_check_ret	mq_store_msg.h	/^typedef enum msg_check_ret$/;"	g
+msg_check_ret_e	mq_store_msg.h	/^}msg_check_ret_e;$/;"	t	typeref:enum:msg_check_ret
+msg_item	mq_util.h	/^typedef struct msg_item$/;"	s
+msg_item::crc16	mq_util.h	/^    uint16_t       crc16;          \/* message body crc16 *\/$/;"	m	struct:msg_item	access:public
+msg_item::delay	mq_util.h	/^    uint32_t       delay;          \/* message delay *\/$/;"	m	struct:msg_item	access:public
+msg_item::len	mq_util.h	/^    uint32_t       len;            \/* message body len *\/$/;"	m	struct:msg_item	access:public
+msg_item::magic_num1	mq_util.h	/^    char           magic_num1;     \/* magic number *\/$/;"	m	struct:msg_item	access:public
+msg_item::magic_num2	mq_util.h	/^    char           magic_num2;     \/* magic number *\/$/;"	m	struct:msg_item	access:public
+msg_item::msg	mq_util.h	/^    char           *msg;           \/* message message boby *\/$/;"	m	struct:msg_item	access:public
+msg_item_t	mq_util.h	/^}msg_item_t;$/;"	t	typeref:struct:msg_item
+mutex	mq_api.c	/^    pthread_mutex_t mutex;$/;"	m	struct:app_info	file:	access:public
+mutex	mq_util.h	/^    pthread_mutex_t mutex;$/;"	m	struct:mq_queue	access:public
+next	uthash.h	/^   void *next;                       \/* next element in app order      *\/$/;"	m	struct:UT_hash_handle	access:public
+noexpand	uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table	access:public
+nonblock_read_n	file.c	/^static inline int32_t nonblock_read_n(int fd, void* buf, int32_t size, int32_t timeout)$/;"	f	file:	signature:(int fd, void* buf, int32_t size, int32_t timeout)
+nonblock_read_n	file.c	/^static inline int32_t nonblock_read_n(int fd, void* buf, int32_t size, int32_t timeout);$/;"	p	file:	signature:(int fd, void* buf, int32_t size, int32_t timeout)
+nonblock_write_n	file.c	/^static inline int32_t nonblock_write_n(int fd, const void* buf, int32_t size, int32_t timeout)$/;"	f	file:	signature:(int fd, const void* buf, int32_t size, int32_t timeout)
+nonblock_write_n	file.c	/^static inline int32_t nonblock_write_n(int fd, const void* buf, int32_t size, int32_t timeout);$/;"	p	file:	signature:(int fd, const void* buf, int32_t size, int32_t timeout)
+nonideal_items	uthash.h	/^   unsigned nonideal_items;$/;"	m	struct:UT_hash_table	access:public
+num_buckets	uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table	access:public
+num_items	uthash.h	/^   unsigned num_items;$/;"	m	struct:UT_hash_table	access:public
+open_log	log.c	/^static inline int open_log(volatile int* fd);$/;"	p	file:	signature:(volatile int* fd)
+open_log	log.c	/^static int open_log(volatile int* fd)$/;"	f	file:	signature:(volatile int* fd)
+opt_count	mq_util.h	/^    uint32_t       opt_count;$/;"	m	struct:mq_db_map	access:public
+output_log_level	mq_config.h	/^    char         output_log_level[16];   \/* log_level *\/$/;"	m	struct:ucmq_conf	access:public
+output_log_path	mq_config.h	/^    char         output_log_path[128];   \/* log_path *\/$/;"	m	struct:ucmq_conf	access:public
+parse_rtag_item	mq_store_rtag.c	/^static bool parse_rtag_item(mq_queue_t *mq_queue, char *rtag_str)$/;"	f	file:	signature:(mq_queue_t *mq_queue, char *rtag_str)
+parse_rtag_item	mq_store_rtag.c	/^static bool parse_rtag_item(mq_queue_t *mq_queue, char *rtag_str);$/;"	p	file:	signature:(mq_queue_t *mq_queue, char *rtag_str)
+parse_wtag_item	mq_store_wtag.c	/^static bool parse_wtag_item(mq_queue_t *mq_queue, char *wtag_str)$/;"	f	file:	signature:(mq_queue_t *mq_queue, char *wtag_str)
+parse_wtag_item	mq_store_wtag.c	/^static bool parse_wtag_item(mq_queue_t *mq_queue, char *wtag_str);$/;"	p	file:	signature:(mq_queue_t *mq_queue, char *wtag_str)
+pos	mq_util.h	/^    uint32_t       pos;$/;"	m	struct:mq_db_map	access:public
+prev	uthash.h	/^   void *prev;                       \/* prev element in app order      *\/$/;"	m	struct:UT_hash_handle	access:public
+put	mq_api.c	/^    uint32_t     put;$/;"	m	struct:app_info	file:	access:public
+put_a_msg	main.c	/^void *put_a_msg(void *args)$/;"	f	signature:(void *args)
+put_msg	main.c	/^void *put_msg(void *args)$/;"	f	signature:(void *args)
+put_num	mq_util.h	/^    uint64_t       put_num;        \/* put msg number *\/$/;"	m	struct:mq_queue	access:public
+put_size	mq_api.c	/^    uint64_t     put_size;$/;"	m	struct:app_info	file:	access:public
+qname	main.c	/^    char qname[16];$/;"	m	struct:_queue	file:	access:public
+qname	mq_util.h	/^    char           qname[32 + 1];  \/* queue name *\/$/;"	m	struct:mq_queue	access:public
+qname	mq_util.h	/^    char qname[32 + 1];            \/* key *\/$/;"	m	struct:mq_queue_list	access:public
+qname_check	mq_api.c	/^static int qname_check(const char* qname)$/;"	f	file:	signature:(const char* qname)
+queue_file	mq_util.h	/^typedef struct queue_file$/;"	s
+queue_file::read_fid	mq_util.h	/^    uint64_t       read_fid;             \/* cur read file index *\/$/;"	m	struct:queue_file	access:public
+queue_file::read_fname	mq_util.h	/^    char           read_fname[64 + 1];   \/* read file name *\/$/;"	m	struct:queue_file	access:public
+queue_file::rtag_fid	mq_util.h	/^    uint64_t       rtag_fid;             \/* cur rtag file index *\/$/;"	m	struct:queue_file	access:public
+queue_file::rtag_fname	mq_util.h	/^    char           rtag_fname[64 + 1];   \/* rtag file name *\/$/;"	m	struct:queue_file	access:public
+queue_file::write_fid	mq_util.h	/^    uint64_t       write_fid;            \/* cur write file index *\/$/;"	m	struct:queue_file	access:public
+queue_file::write_fname	mq_util.h	/^    char           write_fname[64 + 1];  \/* write file name *\/$/;"	m	struct:queue_file	access:public
+queue_file::wtag_fid	mq_util.h	/^    uint64_t       wtag_fid;             \/* cur rtag file index *\/$/;"	m	struct:queue_file	access:public
+queue_file::wtag_fname	mq_util.h	/^    char           wtag_fname[64 + 1];   \/* rtag file name *\/$/;"	m	struct:queue_file	access:public
+queue_file_t	mq_util.h	/^}queue_file_t;$/;"	t	typeref:struct:queue_file
+queue_get_ret	mq_queue_manage.h	/^typedef enum queue_get_ret$/;"	g
+queue_get_ret_e	mq_queue_manage.h	/^}queue_get_ret_e;$/;"	t	typeref:enum:queue_get_ret
+queue_put_ret	mq_queue_manage.h	/^typedef enum queue_put_ret$/;"	g
+queue_put_ret_e	mq_queue_manage.h	/^}queue_put_ret_e;$/;"	t	typeref:enum:queue_put_ret
+queue_t	main.c	/^} queue_t;$/;"	t	typeref:struct:_queue	file:
+read_fid	mq_util.h	/^    uint64_t       read_fid;             \/* cur read file index *\/$/;"	m	struct:queue_file	access:public
+read_file	mq_util.c	/^int read_file(char* buffer, int size, const char* path)$/;"	f	signature:(char* buffer, int size, const char* path)
+read_file	mq_util.h	/^int  read_file(char* buffer, int size, const char* path);$/;"	p	signature:(char* buffer, int size, const char* path)
+read_fname	mq_util.h	/^    char           read_fname[64 + 1];   \/* read file name *\/$/;"	m	struct:queue_file	access:public
+read_n	file.c	/^int32_t read_n(int fd, fd_block_e block_type, void* buf, int32_t size, int32_t timeout)$/;"	f	signature:(int fd, fd_block_e block_type, void* buf, int32_t size, int32_t timeout)
+read_n	file.h	/^extern int32_t read_n(int fd,                    $/;"	p	signature:(int fd, fd_block_e block_type, void* buf, int32_t size, int32_t timeout)
+recv	main.c	/^    char recv[64];$/;"	m	struct:_queue	file:	access:public
+res_store_space	mq_config.h	/^    uint64_t     res_store_space;$/;"	m	struct:ucmq_conf	access:public
+rtag_fd	mq_util.h	/^    int            rtag_fd;        \/* rtag file fd *\/$/;"	m	struct:mq_queue	access:public
+rtag_fid	mq_util.h	/^    uint64_t       rtag_fid;             \/* cur rtag file index *\/$/;"	m	struct:queue_file	access:public
+rtag_fname	mq_util.h	/^    char           rtag_fname[64 + 1];   \/* rtag file name *\/$/;"	m	struct:queue_file	access:public
+sec	log.c	/^        uint8_t     sec;$/;"	m	struct:time_info::__anon1	file:	access:public
+send	main.c	/^    char send[64];$/;"	m	struct:_queue	file:	access:public
+set_errno	internal.h	/^extern int32_t set_errno(int32_t error_number);$/;"	p	signature:(int32_t error_number)
+set_errno	mq_errno.c	/^int32_t set_errno(int32_t error_number)$/;"	f	signature:(int32_t error_number)
+set_rand	util.c	/^int32_t set_rand(void)$/;"	f	signature:(void)
+set_sig_mask	util.c	/^int set_sig_mask(enum OPT opt, int count, ...)$/;"	f	signature:(enum OPT opt, int count, ...)
+set_sig_mask	util.h	/^extern int set_sig_mask(enum OPT opt, int count, ...);$/;"	p	signature:(enum OPT opt, int count, ...)
+signature	uthash.h	/^   uint32_t signature; \/* used only to find hash tables in external analysis *\/$/;"	m	struct:UT_hash_table	access:public
+stat	mq_util.h	/^    int            stat;$/;"	m	struct:mq_db_map	access:public
+str_to_ll	mq_util.c	/^long long int str_to_ll(const char* str)$/;"	f	signature:(const char* str)
+str_to_ll	mq_util.h	/^long long int str_to_ll(const char* str);$/;"	p	signature:(const char* str)
+str_to_num	mq_store_rtag.c	/^static bool str_to_num(uint64_t* num, const char* str, int len)$/;"	f	file:	signature:(uint64_t* num, const char* str, int len)
+str_to_num	mq_store_rtag.c	/^static bool str_to_num(uint64_t* num, const char* str, int len);$/;"	p	file:	signature:(uint64_t* num, const char* str, int len)
+str_to_num	mq_store_wtag.c	/^static bool str_to_num(uint64_t* num, const char* str, int len)$/;"	f	file:	signature:(uint64_t* num, const char* str, int len)
+str_to_num	mq_store_wtag.c	/^static bool str_to_num(uint64_t* num, const char* str, int len);$/;"	p	file:	signature:(uint64_t* num, const char* str, int len)
+sync_interval	mq_config.h	/^    int          sync_interval;$/;"	m	struct:ucmq_conf	access:public
+sync_intv	mq_util.h	/^    int            sync_intv;      \/* sync inteval *\/$/;"	m	struct:mq_queue	access:public
+sync_time_interval	mq_config.h	/^    int          sync_time_interval;$/;"	m	struct:ucmq_conf	access:public
+tail	uthash.h	/^   struct UT_hash_handle *tail; \/* tail hh in app order, for fast append    *\/$/;"	m	struct:UT_hash_table	typeref:struct:UT_hash_table::UT_hash_handle	access:public
+tbl	uthash.h	/^   struct UT_hash_table *tbl;$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_table	access:public
+time_info	log.c	/^typedef union time_info$/;"	u	file:
+time_info	log.c	/^}time_info;$/;"	t	typeref:union:time_info	file:
+time_info::__anon1::day	log.c	/^        uint16_t    day;$/;"	m	struct:time_info::__anon1	file:	access:public
+time_info::__anon1::hour	log.c	/^        uint8_t     hour;$/;"	m	struct:time_info::__anon1	file:	access:public
+time_info::__anon1::min	log.c	/^        uint8_t     min;$/;"	m	struct:time_info::__anon1	file:	access:public
+time_info::__anon1::msec	log.c	/^        uint16_t    msec;$/;"	m	struct:time_info::__anon1	file:	access:public
+time_info::__anon1::sec	log.c	/^        uint8_t     sec;$/;"	m	struct:time_info::__anon1	file:	access:public
+time_info::value	log.c	/^    uint64_t        value;$/;"	m	union:time_info	file:	access:public
+time_zone	log.h	/^    uint32_t    time_zone;          \/* local time zone (GMT+8 should be 8) *\/$/;"	m	struct:log_config	access:public
+times	mq_api.c	/^    uint32_t     times;$/;"	m	struct:app_info	file:	access:public
+total_time	mq_api.c	/^    uint32_t     total_time;$/;"	m	struct:app_info	file:	access:public
+touch_data_path	mq_store_file.c	/^bool touch_data_path(const char* path)$/;"	f	signature:(const char* path)
+touch_data_path	mq_store_file.h	/^bool touch_data_path(const char* path);$/;"	p	signature:(const char* path)
+ucmq_conf	mq_config.h	/^typedef struct ucmq_conf$/;"	s
+ucmq_conf::data_file_path	mq_config.h	/^    char         data_file_path[128];    \/* data_path *\/$/;"	m	struct:ucmq_conf	access:public
+ucmq_conf::db_file_max_size	mq_config.h	/^    int          db_file_max_size;       \/* db file size *\/$/;"	m	struct:ucmq_conf	access:public
+ucmq_conf::def_max_queue	mq_config.h	/^    uint32_t     def_max_queue;          \/* queue_size *\/$/;"	m	struct:ucmq_conf	access:public
+ucmq_conf::max_qlist_itmes	mq_config.h	/^    int          max_qlist_itmes;        \/* queue list items limit *\/$/;"	m	struct:ucmq_conf	access:public
+ucmq_conf::output_log_level	mq_config.h	/^    char         output_log_level[16];   \/* log_level *\/$/;"	m	struct:ucmq_conf	access:public
+ucmq_conf::output_log_path	mq_config.h	/^    char         output_log_path[128];   \/* log_path *\/$/;"	m	struct:ucmq_conf	access:public
+ucmq_conf::res_store_space	mq_config.h	/^    uint64_t     res_store_space;$/;"	m	struct:ucmq_conf	access:public
+ucmq_conf::sync_interval	mq_config.h	/^    int          sync_interval;$/;"	m	struct:ucmq_conf	access:public
+ucmq_conf::sync_time_interval	mq_config.h	/^    int          sync_time_interval;$/;"	m	struct:ucmq_conf	access:public
+ucmq_conf_t	mq_config.h	/^}ucmq_conf_t;$/;"	t	typeref:struct:ucmq_conf
+uint32_t	uthash.h	/^typedef unsigned int uint32_t;$/;"	t
+uint8_t	uthash.h	/^typedef unsigned char uint8_t;$/;"	t
+uthash_expand_fyi	uthash.h	74;"	d
+uthash_fatal	uthash.h	69;"	d
+uthash_free	uthash.h	71;"	d
+uthash_malloc	uthash.h	70;"	d
+uthash_noexpand_fyi	uthash.h	73;"	d
+value	log.c	/^    uint64_t        value;$/;"	m	union:time_info	file:	access:public
+wait_fd	file.c	/^int wait_fd(int fd, short events, int32_t timeout)$/;"	f	signature:(int fd, short events, int32_t timeout)
+wait_fd	file.h	/^extern int wait_fd(int fd, short events, int32_t timeout);$/;"	p	signature:(int fd, short events, int32_t timeout)
+write_2_file	log.c	/^static inline void write_2_file(int fd, const char* buf, int size);$/;"	p	file:	signature:(int fd, const char* buf, int size)
+write_2_file	log.c	/^static void write_2_file(int fd, const char* buf, int size)$/;"	f	file:	signature:(int fd, const char* buf, int size)
+write_fid	mq_util.h	/^    uint64_t       write_fid;            \/* cur write file index *\/$/;"	m	struct:queue_file	access:public
+write_fname	mq_util.h	/^    char           write_fname[64 + 1];  \/* write file name *\/$/;"	m	struct:queue_file	access:public
+write_n	file.c	/^int32_t write_n(int fd, fd_block_e block_type, const void* buf, int32_t size, int32_t timeout)$/;"	f	signature:(int fd, fd_block_e block_type, const void* buf, int32_t size, int32_t timeout)
+write_n	file.h	/^extern int32_t write_n(int fd,                   $/;"	p	signature:(int fd, fd_block_e block_type, const void* buf, int32_t size, int32_t timeout)
+wtag_fd	mq_util.h	/^    int            wtag_fd;        \/* rtag file fd *\/$/;"	m	struct:mq_queue	access:public
+wtag_fid	mq_util.h	/^    uint64_t       wtag_fid;             \/* cur rtag file index *\/$/;"	m	struct:queue_file	access:public
+wtag_fname	mq_util.h	/^    char           wtag_fname[64 + 1];   \/* rtag file name *\/$/;"	m	struct:queue_file	access:public

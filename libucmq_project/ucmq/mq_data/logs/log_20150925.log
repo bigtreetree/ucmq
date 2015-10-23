@@ -1,0 +1,17 @@
+[ INFO  26014 14:19:42.258 ../../src/mq_api.c:55 ] Initial mq store.
+[ INFO  26014 14:19:42.258 ../../src/mq_queue_manage.c:186 ] --- Open [test_queue]'s Store file ---
+[ INFO  26014 14:19:42.258 ../../src/mq_store_file.c:433 ] Rtag [rtag_000000000001] id [1], wtag [wtag_000000000001] id [1], Read db [db_000000000001] id [1], Write db [db_000000000001] id [1]
+[ INFO  26014 14:19:42.274 ../../src/mq_store_manage.c:186 ] Read db fid [1], Write db fid [1]
+[ INFO  26014 14:19:42.274 ../../src/mq_store_file.c:137 ] Open data file[./mq_data/data/test_queue/db_000000000001] success, file size [67108864]
+[ INFO  26014 14:19:42.274 ../../src/mq_store_manage.c:208 ] Read mmap file same to write [./mq_data/data/test_queue/db_000000000001]
+[ INFO  26014 14:19:42.274 ../../src/mq_queue_manage.c:236 ] --- queue array num[1] ---
+[ INFO  26014 14:19:42.274 ../../src/mq_api.c:64 ] All queue's total unread msg count[1]
+[ INFO  26014 14:19:51.481 ../../src/mq_store_msg.c:120 ] Write DB file head, Queue name [test_queue] index [1]
+[ INFO  26014 14:19:51.481 ../../src/mq_store_file.c:137 ] Open data file[./mq_data/data/test_queue/db_000000000002] success, file size [67108864]
+[ INFO  26014 14:19:51.481 ../../src/mq_store_msg.c:120 ] Write DB file head, Queue name [test_queue] index [2]
+[ INFO  26014 14:19:59.906 ../../src/mq_store_msg.c:120 ] Write DB file head, Queue name [test_queue] index [2]
+[ INFO  26014 14:19:59.906 ../../src/mq_store_file.c:137 ] Open data file[./mq_data/data/test_queue/db_000000000003] success, file size [67108864]
+[ INFO  26014 14:19:59.906 ../../src/mq_store_msg.c:120 ] Write DB file head, Queue name [test_queue] index [3]
+[ INFO  26014 14:20:09.468 ../../src/mq_store_msg.c:120 ] Write DB file head, Queue name [test_queue] index [3]
+[ INFO  26014 14:20:09.468 ../../src/mq_store_file.c:137 ] Open data file[./mq_data/data/test_queue/db_000000000004] success, file size [67108864]
+[ INFO  26014 14:20:09.468 ../../src/mq_store_msg.c:120 ] Write DB file head, Queue name [test_queue] index [4]
