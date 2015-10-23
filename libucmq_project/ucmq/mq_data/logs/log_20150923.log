@@ -1,7 +1,0 @@
-[ INFO  13625 10:50:24.406 ../../src/mq_api.c:55 ] Initial mq store.
-[ INFO  13625 10:50:27.754 ../../src/mq_queue_manage.c:236 ] --- queue array num[0] ---
-[ INFO  13625 10:50:31.506 ../../src/mq_api.c:64 ] All queue's total unread msg count[0]
-[ INFO  13625 10:50:38.901 ../../src/mq_queue_manage.c:306 ] Queue items limit[32], Queue list num [0]
-[ INFO  13625 10:50:38.902 ../../src/mq_store_file.c:135 ] Open data file[./mq_data/data/test_queue/db_000000000001] success, file size [67108864]
-[ INFO  13625 10:50:38.902 ../../src/mq_queue_manage.c:324 ] Creat queue[test_queue] db dir and db file ... success
-[ INFO  13625 10:50:38.902 ../../src/mq_api.c:164 ] Create the queue [test_queue] ...success
